@@ -4,7 +4,7 @@ document.getElementById("showTop").addEventListener("click", () => {
 
 document.getElementById("closeTop").addEventListener("click", () => {
     closeWindow("topDiv");
-})
+});
 
 function showWindow(divId) {
     document.getElementById(divId).style.visibility = "visible";
